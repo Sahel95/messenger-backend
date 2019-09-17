@@ -1,0 +1,14 @@
+<html>
+<head></head>
+
+<body>
+    <h1>User List:</h1>
+
+    {% for key, value in user_message_count.items %}
+        <li>{{key.first_name}} : {{value}}</li>
+    {% endfor %}
+
+
+</body>
+
+</html>
